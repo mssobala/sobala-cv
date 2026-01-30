@@ -142,4 +142,27 @@ ul {
   .download-buttons {
     display: none;
   }
+
+}
+
+.contact-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px 22px;
+  margin-top: 14px;
+  font-size: 0.95rem;
+  color: #333;
+  align-items: center;
+}
+
+.contact-icons span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+}
+
+.contact-icons i {
+  color: #0077b5; /* delikatny niebieski akcent */
+  font-size: 0.95rem;
 }
