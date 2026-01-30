@@ -145,12 +145,17 @@ ul {
 
 }
 
+.contact-row {
+  display: flex;
+  flex-direction: column;
+  gap: 4px; /* mniejszy odstęp między liniami */
+  margin-top: 14px;
+}
+
 .contact-icons {
   display: flex;
-  flex-wrap: wrap;
-  gap: 14px 22px;
-  margin-top: 14px;
-  font-size: 0.95rem;
+  gap: 18px; /* bardziej kompaktowe odstępy */
+  font-size: 0.92rem;
   color: #333;
   align-items: center;
 }
@@ -163,6 +168,12 @@ ul {
 }
 
 .contact-icons i {
-  color: #0077b5; /* delikatny niebieski akcent */
-  font-size: 0.95rem;
+  color: #0077b5;
+  font-size: 0.9rem;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
 }
