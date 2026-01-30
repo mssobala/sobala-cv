@@ -205,7 +205,16 @@ ul {
     width: 200px;                /* większe zdjęcie na mobile */
     aspect-ratio: 3 / 4;
   }
+   .hero-text h1 {
+    font-size: 32px;
+  }
+
+  .hero-text h2 {
+    font-size: 18px;
+  }
+
 }
+
 
 
 
