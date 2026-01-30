@@ -43,7 +43,7 @@ body {
   height: 180px;
   border-radius: 16px;
   object-fit: cover;
-  object-position: center 20%;
+  object-position: center 0%;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
 }
 
@@ -186,5 +186,6 @@ ul {
 .download-buttons {
   margin-top: 0;
 }
+
 
 
