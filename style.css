@@ -175,6 +175,7 @@ ul {
 
 .action-row {
   display: flex;
+  flex-wrap: nowrap;   /* nie pozwalamy się łamać do nowej linii */
   align-items: center;
   gap: 16px;
   margin-top: 16px;
@@ -184,3 +185,4 @@ ul {
 .download-buttons {
   margin-top: 0;
 }
+
