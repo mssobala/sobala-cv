@@ -39,8 +39,8 @@ body {
 }
 
 .profile-photo {
-  width: 180px;
-  height: 180px;
+  width: 220px;
+  height: 260px;
   border-radius: 16px;
   object-fit: cover;
   object-position: center 0%;
@@ -186,6 +186,7 @@ ul {
 .download-buttons {
   margin-top: 0;
 }
+
 
 
 
