@@ -172,3 +172,15 @@ ul {
     display: none;
   }
 }
+
+.action-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.lang-switch,
+.download-buttons {
+  margin-top: 0;
+}
