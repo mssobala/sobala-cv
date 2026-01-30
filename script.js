@@ -2,7 +2,7 @@ async function loadLanguage(lang) {
   const response = await fetch(`lang/${lang}.json`);
   const data = await response.json();
 
-  const t = data.text;
+  const t = data;
 
   const mapText = [
     "name",
@@ -119,3 +119,4 @@ document.getElementById("lang-en").addEventListener("click", () =>
 
 
 loadLanguage("en");
+
