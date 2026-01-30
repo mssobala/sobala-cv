@@ -1,5 +1,5 @@
 async function loadLanguage(lang) {
-  const response = await fetch(`/lang/${lang}.json`);
+  const response = await fetch(`lang/${lang}.json`);
   const data = await response.json();
 
   const t = data.text;
@@ -116,5 +116,6 @@ document.getElementById("lang-pl").addEventListener("click", () =>
 document.getElementById("lang-en").addEventListener("click", () =>
   loadLanguage("en")
 );
+
 
 loadLanguage("en");
