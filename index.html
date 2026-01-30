@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV – Michal Sobala</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header class="hero">
+  <div class="hero-text">
+    <h1 data-i18n="name"></h1>
+    <h2 data-i18n="title"></h2>
+    <p data-i18n="profile"></p>
+
+    <div class="contact-inline">
+      <span data-i18n="dob"></span> ·
+      <span data-i18n="phone"></span> ·
+      <span data-i18n="email"></span>
+    </div>
+    <div class="contact-inline">
+      <span data-i18n="linkedin"></span> ·
+      <span data-i18n="driving_license"></span> ·
+      <span data-i18n="website"></span>
+    </div>
+
+    <div class="lang-switch">
+      <button id="lang-pl">PL</button>
+      <button id="lang-en">EN</button>
+    </div>
+
+    <div class="download-buttons">
+      <a id="download-pl" href="#" target="_blank"></a>
+      <a id="download-en" href="#" target="_blank"></a>
+    </div>
+  </div>
+
+  <img src="img/photo.jpg" alt="Profile photo" class="profile-photo" />
+</header>
+
+<main>
+  <section>
+    <h3 data-i18n="section_profile"></h3>
+    <p data-i18n="profile"></p>
+  </section>
+
+  <section>
+    <h3 data-i18n="section_languages"></h3>
+    <ul id="languages-list"></ul>
+  </section>
+
+  <section>
+    <h3 data-i18n="section_key_competencies"></h3>
+    <ul id="competencies-list"></ul>
+  </section>
+
+  <section>
+    <h3 data-i18n="section_certificates"></h3>
+    <ul id="certificates-list"></ul>
+  </section>
+
+  <section>
+    <h3 data-i18n="section_strengths"></h3>
+    <ul id="strengths-list"></ul>
+  </section>
+
+  <section>
+    <h3 data-i18n="section_interests"></h3>
+    <ul id="interests-list"></ul>
+  </section>
+
+  <section>
+    <h3 data-i18n="section_experience"></h3>
+    <div id="experience"></div>
+  </section>
+
+  <section>
+    <h3 data-i18n="section_clause"></h3>
+    <p data-i18n="clause"></p>
+  </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
