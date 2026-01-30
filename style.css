@@ -193,42 +193,9 @@ ul {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 24px 16px;   /* dużo mniejsze marginesy */
+    padding: 24px 16px;
     gap: 20px;
   }
-
-  .hero-text {
-    max-width: 100%;      /* pełna szerokość */
-    width: 100%;          /* wymuszenie */
-    align-items: center;
-  }
-
-  .hero-text h1 {
-    font-size: 28px;      /* lepsze proporcje */
-  }
-
-  .hero-text h2 {
-    font-size: 16px;
-  }
-
-  .profile-photo {
-    width: 180px;         /* idealny rozmiar na mobile */
-    aspect-ratio: 3 / 4;
-  }
-
-  .contact-row {
-    align-items: center;  /* kontakt też na środku */
-    margin-left: 0;
-  }
-
-  .contact-icons {
-    justify-content: center;
-    flex-wrap: wrap;      /* ikony nie będą wychodzić poza ekran */
-    gap: 12px;
-  }
-}
-
-@media (max-width: 768px) {
 
   .hero-text {
     display: flex;
@@ -238,14 +205,34 @@ ul {
     max-width: 100%;
   }
 
+  .hero-text h1 {
+    font-size: 28px;
+  }
+
+  .hero-text h2 {
+    font-size: 16px;
+  }
+
+  .profile-photo {
+    width: 180px;
+    aspect-ratio: 3 / 4;
+  }
+
+  .contact-row {
+    align-items: center;
+    margin-left: 0;
+  }
+
   .contact-icons {
     width: 100%;
     justify-content: center;
+    flex-wrap: wrap;
     text-align: center;
+    gap: 12px;
   }
 
   .action-row {
-    flex-direction: column;   /* <-- to jest krytyczne */
+    flex-direction: column;
     gap: 12px;
     width: 100%;
     justify-content: center;
