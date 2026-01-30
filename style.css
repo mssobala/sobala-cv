@@ -26,7 +26,7 @@ body {
 
 .hero-text h2 {
   font-size: 20px;
-  margin: 0 0 16px;
+  margin: 0 0 10px;
   color: #555;
   font-weight: 500;
 }
@@ -177,3 +177,8 @@ ul {
   flex-direction: column;
   gap: 6px;
 }
+
+.hero-text {
+  max-width: 70%;
+}
+
