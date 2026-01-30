@@ -40,7 +40,7 @@ body {
 
 .profile-photo {
   width: 220px;
-  height: 260px;
+  aspect-ratio: 3 / 4;
   border-radius: 16px;
   object-fit: cover;
   object-position: center 0%;
@@ -186,6 +186,7 @@ ul {
 .download-buttons {
   margin-top: 0;
 }
+
 
 
 
