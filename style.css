@@ -182,3 +182,15 @@ ul {
   max-width: 70%;
 }
 
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-width: 70%;
+}
+
+.contact-row {
+  margin-left: 2px;
+}
+
+
