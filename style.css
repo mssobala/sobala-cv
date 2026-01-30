@@ -19,6 +19,13 @@ body {
   border-bottom: 1px solid #e0e0e0;
 }
 
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-width: 70%;
+}
+
 .hero-text h1 {
   font-size: 40px;
   margin: 0 0 8px;
@@ -39,10 +46,32 @@ body {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
 }
 
-.contact-inline {
-  margin-top: 6px;
-  font-size: 14px;
-  color: #555;
+.contact-row {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-top: 14px;
+  margin-left: 2px;
+}
+
+.contact-icons {
+  display: flex;
+  gap: 18px;
+  font-size: 0.92rem;
+  color: #333;
+  align-items: center;
+}
+
+.contact-icons span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+}
+
+.contact-icons i {
+  color: #0077b5;
+  font-size: 0.9rem;
 }
 
 .lang-switch {
@@ -142,55 +171,4 @@ ul {
   .download-buttons {
     display: none;
   }
-
 }
-
-.contact-row {
-  display: flex;
-  flex-direction: column;
-  gap: 4px; /* mniejszy odstęp między liniami */
-  margin-top: 14px;
-}
-
-.contact-icons {
-  display: flex;
-  gap: 18px; /* bardziej kompaktowe odstępy */
-  font-size: 0.92rem;
-  color: #333;
-  align-items: center;
-}
-
-.contact-icons span {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  white-space: nowrap;
-}
-
-.contact-icons i {
-  color: #0077b5;
-  font-size: 0.9rem;
-}
-
-.hero-text {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
-
-.hero-text {
-  max-width: 70%;
-}
-
-.hero-text {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-  max-width: 70%;
-}
-
-.contact-row {
-  margin-left: 2px;
-}
-
-
