@@ -58,7 +58,7 @@ async function loadLanguage(lang) {
     .map((i) => `<li>${i}</li>`)
     .join("");
 
-  const expContainer = document.getElementById("experience");
+  const expContainer = document.getElementById("experience-list");
   expContainer.innerHTML = data.experience
     .map((exp) => {
       const subroles = exp.subroles
@@ -119,5 +119,6 @@ document.getElementById("lang-en").addEventListener("click", () =>
 
 
 loadLanguage("en");
+
 
 
